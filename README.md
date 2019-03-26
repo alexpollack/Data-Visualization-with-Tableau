@@ -13,4 +13,39 @@ Responce for Label Insight 2019 Data Science internship internview test.
   Personally, from this dataset I do not believe much benefit from predictive analysis or modeling is present. That is because of the nature of the data. Some regression analysis could be useful in predicting the possible number of shootings or deaths likely to occur in the next year as a result of shootings. However, without extending the data to include a feature such as changes to gun law each year which could be used to interpret how possitive or negative these laws were or how further laws may do more, not much is gained from this. This is due to the fact that the data could not predict where or when necissarily the events would occur accurately, which would require more background on the shooter themselves.
   
 ##### Visualized Data
-![alt text](screenshots/gender_race.png "Description goes here")
+Below is the set of graphics created by visualizing the data with Tableau.
+
+# Locations
+![alt text](locations.png "Map of shootings")
+
+Using a map to visualize the locations relative to the number of victims is a powerful way to show how much of the country has been effected by these events.
+
+# Over Time
+![alt text](Time.png "Number of Incidents with Time")
+
+A trend line of the number of instances over time can be a good way of showing how prevelent this issue is becoming. Including a color gradient highlights addition information in a simple way, such as that these events are also becoming more fatal.
+
+# Shooter Demographics
+![alt text](gender_race.png "shooter demographics")
+
+# Venue Type by Shooter Demographic
+![alt text](race.png "venu by demographic")
+
+Split bargraphs are a a useful way to show many features in a concise way.
+
+# Mass or Spree Incident by Venues
+![alt text](venue.png "Mass or spree")
+
+# Mental Health: Number By Race
+![alt text](signs_byrace.png "race mental health")
+
+# Mental Health: Legal Weapon?
+![alt text](legalweapon.png "legally obtained weapon by mental health")
+
+# Number of Instances: Legal Weapon?
+![alt text](number_bylegal.png "instances by legal weapons")
+
+# Number of Instances: Weapon Style
+![alt text](weapon_type.png "instances by legal weapons")
+
+Bubble graphs are a useful way to make a clear point of the quantitative difference of features.
