@@ -17,36 +17,36 @@ Responce for Label Insight 2019 Data Science internship internview test.
 Below is the set of graphics created by visualizing the data with Tableau.
 
 # Locations
-![alt text](locations.png "Map of shootings")
+![alt text](/graphics/locations.png "Map of shootings")
 
 Using a map to visualize the locations relative to the number of victims is a powerful way to show how much of the country has been effected by these events.
 
 # Over Time
-![alt text](Time.png "Number of Incidents with Time")
+![alt text](/graphics/Time.png "Number of Incidents with Time")
 
 A trend line of the number of instances over time can be a good way of showing how prevelent this issue is becoming. Including a color gradient highlights addition information in a simple way, such as that these events are also becoming more fatal.
 
 # Shooter Demographics
-![alt text](gender_race.png "shooter demographics")
+![alt text](/graphics/gender_race.png "shooter demographics")
 
 # Venue Type by Shooter Demographic
-![alt text](race.png "venu by demographic")
+![alt text](/graphics/race.png "venu by demographic")
 
 Split bargraphs are a a useful way to show many features in a concise way.
 
 # Mass or Spree Incident by Venues
-![alt text](venue.png "Mass or spree")
+![alt text](/graphics/venue.png "Mass or spree")
 
 # Mental Health: Number By Race
-![alt text](signs_byrace.png "race mental health")
+![alt text](/graphics/signs_byrace.png "race mental health")
 
 # Mental Health: Legal Weapon?
-![alt text](legalweapon.png "legally obtained weapon by mental health")
+![alt text](/graphics/legalweapon.png "legally obtained weapon by mental health")
 
 # Number of Instances: Legal Weapon?
-![alt text](number_bylegal.png "instances by legal weapons")
+![alt text](/graphics/number_bylegal.png "instances by legal weapons")
 
 # Number of Instances: Weapon Style
-![alt text](weapon_type.png "instances by legal weapons")
+![alt text](/graphics/weapon_type.png "instances by legal weapons")
 
 Bubble graphs are a useful way to make a clear point of the quantitative difference of features.
