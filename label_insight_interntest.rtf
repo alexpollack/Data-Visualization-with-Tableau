@@ -1,0 +1,105 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\ftech\fcharset77 Symbol;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 Part 1) Questions\
+\ul Data Science:\ulnone \
+1. In the Least Angle Regression model (LASSO), what does the alpha parameter control?\
+
+\f1\b0 A. 	In the LASSO model, the alpha parameter controls the level of emphasis given toward minimizing the sum of square of coefficients (SSC) compared to minimizing the residual sum of squares (RSS). That is, when alpha is small, say 0, it is the same as a simple linear regression and will produce the same coefficients. As alpha grows larger toward infinity, all coefficients will be go toward zero. This is because with the square of the coefficients being infinitely weighted, anything less than zero will result in infinity, giving zeroed coefficients. As a result, higher alpha results in higher RSS.\
+\
+
+\f0\b 2. Is more data always better? (Explain Why)
+\f1\b0 \
+A. 	Yes and no. More data always shows more of a variety of what is going on and more examples can improve predictions, especially in classification, but also in numerical prediction. In methods that require training and testing models, more data also helps improve the generality of the model making it potentially more accurate for other similar data sets, not just the one being used for training. Large data sets can be very beneficial in these cases, however data sets that are too large are also computationally expensive to evaluate/train on, as well as be expensive to store. Depending on the set size, it is important to take into account the methods being selected and how they use the data because of this. Can it be parallelized? Is it recursive?\
+\
+
+\f0\b 3. When do you use a Linear Discriminant Analysis (LDA) vs Principal Component Analysis (PCA)?\
+
+\f1\b0 A. 	PCA treats the data as a whole and is primarily for dimensionality reduction done by finding the directions of maximized variance. This finds the most important i features since they have the largest variation. You would use PCA when the labels are not important, in unsupervised methods, for feature extraction. It can be used as a step in the process of classification techniques, such as decision trees. \
+	When the data is separated by classes, LDA  can be used to maximize the variance between classes is, while minimizing the variance within classes, and is therefore a supervised learning method. LDA works for classification. \
+\
+
+\f0\b 4. What\'92s the difference between L1 and L2 regularization?\
+
+\f1\b0 A. 	L1 and L2 regularization use the L1 and L2 norm as part of the regularization term. That is, in L1 (LASSO) the taxicab/Manhattan norm is used, || x ||_1 = \{for all i: \uc0\u8721  | x_i |\}, and L2 (Ridge) the Euclidean norm is used, || x ||_2 = \{for all i: sqrt(\u8721  (x_i)^2 ). \
+\
+
+\f0\b 5. Can a machine learning algorithm outperform a human? (Explain Why)\
+
+\f1\b0 A.	Yes, but not in all cases. Machine learning algorithms are designed to optimize completing tasks both as effectively and efficiently as possible, ideally because the task would be too complicated or time demanding for a human.\
+	 In certain tasks such as voice recognition, the way a machine analyzes the sound is simply just much complicated than how a human might analyze it. The algorithm can decompose or transform the voice frequency. It could find the sections where the voice is most distinct (having the highest variance) and compare simply that segment feature to the massive library (\'93memories\'94) of what it knows bit by bit. A human however, even expertly trained in human linguistics, would require dramatically more time to attempt similar efforts. Even if the algorithm is not as accurate in its first run, because of the massive speed up, an ensemble of dozens or hundreds of runs could be conducted to find its best guess in the time a human could. Simply put, there are just certain things, like deeply analyzing features, that an algorithm can do faster and with more breadth than a human.\
+	Major cases include: code breaking (algorithms designed since World War 2 to crack cipher text keys in hours or less, task that would take a single well trained human days), or video games (the chess machine Deep Blue in then 1990\'92s besting the chess world champion).\
+\
+
+\f0\b \ul Statistics & Probability:\
+\ulnone 1. What is the maximum likelihood estimation? Could there be any case where it doesn\'92t exist?\
+
+\f1\b0 A. 	The maximum likelihood estimation (MLE) is a method to estimate or determine the values for parameters for a given model, based on observations. They are determined by the likelihood function so that they maximize how likely the process being modeled actually produces the observed results. The MLE may not exist when the parameter space is unbounded and the likelihood function is not concave (meaning there is not centered maximum).\
+\
+
+\f0\b 2. Let C and D be two events with P(C) = 0.25, P(D) = 0.45, and P(C 
+\f2\b0 \cf2 \expnd0\expndtw0\kerning0
+\uc0\u8745 
+\f0\b \cf0 \kerning1\expnd0\expndtw0  D) = 0.1, what is P(C^c 
+\f2\b0 \cf2 \expnd0\expndtw0\kerning0
+\uc0\u8745 
+\f0\b \cf0 \kerning1\expnd0\expndtw0  D)?\
+
+\f1\b0 A.	P(C^c 
+\f2 \cf2 \expnd0\expndtw0\kerning0
+\uc0\u8745 
+\f1 \cf0 \kerning1\expnd0\expndtw0  D) = P(C^c) \'95 P(D) = (1 - 0.25) \'95 0.45 = 0.75 \'95 0.45 
+\f0\b = 0.3375
+\f1\b0 \
+\
+
+\f0\b 3. Two dice are rolled.\
+	A = \'91sum of two dice equals 3\'92\
+	B = \'91sum of two dice equals 7\'92\
+	C = \'91at least one of the dice is 1\'92\
+What is P(A|C)?\
+
+\f1\b0 A.	P(A) = 2/36, P(C) = 11/36, P(A 
+\f2 \cf2 \expnd0\expndtw0\kerning0
+\uc0\u8745  
+\f1 \cf0 \kerning1\expnd0\expndtw0 C) = 2/36:\
+	P(A | C) = P(A 
+\f2 \cf2 \expnd0\expndtw0\kerning0
+\uc0\u8745  
+\f1 \cf0 \kerning1\expnd0\expndtw0 C) / P(C)= (2/36) / (11/36) = 
+\f0\b 2/11
+\f1\b0 \
+
+\f0\b \ul Deep Learning:\
+\ulnone 1. How vanishing gradient problem can be solved?\
+
+\f1\b0 A.	When using a method that can encounter the vanishing gradient problem, or exponentially decaying gradient, using a multi-level hierarchy can help to avoid this. That is, pre-training the network one level at a time via unsupervised learning, then fine-tune through backpropagation. This allows the model to be represented as a sort of compressed form being based on through the levels, avoiding the propagation of small errors leading to the decay. Other solutions can be simply developing faster machine hardware, or in the case of recurrent neural networks long short-term memory (LSTM) which essentially incorporates remembering values needed for only arbitrary time lengths and only permitting certain information in and out of certain levels.
+\f0\b \
+\
+2. Explain batch gradient descent, stochastic gradient descent and mini-match.\
+
+\f1\b0 A.	Batch gradient descent is a variant of the standard gradient descent algorithm that finds the error for each example in the dataset while training rather than the true gradient of the full set (as in standard gradient descent) and updates the model after each training examples are processed. \
+	Stochastic gradient descent is another variation that instead updates the model with the error every time each individual example is evaluated. This stochastic version also differs because the order which the examples are evaluated is shuffled or reorder, so they are not necessarily evaluated in the order presented.\
+	Mini-batch is a method similar to batch gradient descent, however it splits the training dataset into a set of small sections or \'93batches\'94 which are then used to find the error and update the model. The result can be the sum or the average of the batches.
+\f0\b \
+\
+3. What is the difference between Transfer Learning and Fine-tuning?\
+
+\f1\b0 A.	In the case of transfer learning, the goal is about taking what was learned from one model and using it for another different problem, therefore transferring what was learned along. Fine tuning is focusing on a model that is already working to improve it\'92s own performance, likely by further training. Fine-tuning can be used in the process of transfer learning, but is not to say they are the same.
+\f0\b \
+\
+\
+\
+\
+\
+\
+
+\f1\b0 \
+\
+\
+}
