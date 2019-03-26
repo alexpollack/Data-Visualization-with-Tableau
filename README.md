@@ -1,4 +1,5 @@
-# Alexander Pollack Label Insight Data Science Internship Exam
+# Alexander Pollack 
+## Label Insight 2019 Data Science Internship Exam
 Responce for Label Insight 2019 Data Science internship internview test.
 
 ## Part 2) Data Analysis
