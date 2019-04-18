@@ -1,8 +1,8 @@
 # Alexander Pollack 
-## Label Insight 2019 Data Science Internship Exam
-Responce for Label Insight 2019 Data Science internship internview test.
 
-## Part 2) Data Analysis
+# Visualizing Major Shooting Statistics
+
+## Data Analysis
   I chose to work with the Mother Jones Shooting data set. I did so because I personally felt as though this is both an interesting and important set that can truly show the power and importance of data visulation. I went about this using the data visualization software Tableae. Initially I planned to write a Python script to visualize and compare the breakdown of the data with the different features included, as well as potentially have some prediction as to the future trends of shooting rates. I instead went with using Tableau because this set specifically more than anything shows the information breakdown of what past shootings had been like rather than how we could use that to predict where/when shootings will happen. I felt the best use of this set would be in sometime of information session or possible case toward gun reform laws and that is how I chose to format my interpretation.
 
 ### What I Learned - Data Visualization
